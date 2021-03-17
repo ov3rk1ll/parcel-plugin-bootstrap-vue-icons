@@ -21,3 +21,14 @@ npm install -D parcel-plugin-bootstrap-vue-icons
 ### Usage
 
 The plugin scanns all vue files an will detect any use of `b-icon` to see which icons to keep
+
+If you need to keep additional icons that are not used in templates (e.g. set at runtime), you can provide a list in your `package.json` file:
+
+```json
+// package.json
+"name": "my-package-name",
+...
+"bootstrapVueIcons": {
+  "icons": ["arrow-up", "exclamation-circle-fill", ...]
+}
+```
