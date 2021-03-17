@@ -7,6 +7,10 @@
     "fmt": "prettier --write '**/*.*' && npm run lintfix",
     "lintfix": "eslint --fix"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ov3rk1ll/parcel-plugin-bootstrap-vue-icons.git"
+  },
   "keywords": [
     "parcel",
     "parcel plugin",
