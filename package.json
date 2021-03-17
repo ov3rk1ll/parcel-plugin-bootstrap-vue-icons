@@ -1,0 +1,27 @@
+{
+  "name": "parcel-plugin-bootstrap-vue-icons",
+  "version": "1.0.0",
+  "description": "Remove unused bootstrap-vue icons from final bundle to reduce bundle size",
+  "main": "index.js",
+  "scripts": {
+    "fmt": "prettier --write '**/*.*' && npm run lintfix",
+    "lintfix": "eslint --fix"
+  },
+  "keywords": [
+    "parcel",
+    "parcel plugin",
+    "bootstrap-vue",
+    "icons",
+    "bundle size"
+  ],
+  "author": "ov3rk1ll",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.2.1"
+  },
+  "peerDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
