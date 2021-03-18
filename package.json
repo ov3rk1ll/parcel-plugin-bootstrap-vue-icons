@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-bootstrap-vue-icons",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Remove unused bootstrap-vue icons from final bundle to reduce bundle size",
   "main": "index.js",
   "scripts": {
